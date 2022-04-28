@@ -5,6 +5,10 @@
     text-decoration: none;
     font-family: "JoystixW00-Monospace";
 }
+@font-face {
+    font-family: "JoystixW00-Monospace";
+    src: url(//db.onlinewebfonts.com/c/53652da17589a6e21c5657d8a29f06b4?family=JoystixW00-Monospace);
+}
 @import url(//db.onlinewebfonts.com/c/53652da17589a6e21c5657d8a29f06b4?family=JoystixW00-Monospace);
 html{
     height: 100%;
@@ -150,6 +154,7 @@ label #close{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding-bottom: 150px;
+    margin: 20px;
 }
 .title{
     margin: 20px;
@@ -188,27 +193,29 @@ button:hover{
 .item2{
     display: grid;
     grid-area: "menu";
-    gap: 2em;
+    gap: 1em;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 150px;
+    margin: 20px; 
+    position: relative;
 }
 .aboutme{
-    position: relative;
-    grid-area: "menu";
     max-width: 70%;
     margin: 0 auto;
 }
-.aboutme-1{
-    margin: 20px;
-}
 .title2>p{
-   text-align: left;
+ 
+   padding: 10px 5px;
+   width: 50vw;
+   margin: 20px;
    font-size: 20px;
+   text-align: left;
+
 }
 .title2>h2{
-    align-items: center;
+    
     font-size: 3em;
-    margin: 20px auto;
+    margin: 20px;
 }
 .aboutme>img{
     width: 100%;
@@ -219,22 +226,21 @@ button:hover{
     align-items: center;
     padding-bottom: 150px;
     text-align: center;
-    margin: 20px;
+    position: relative;
 }
 .abili{
-    margin: 2px auto;
+    margin: 20px;
     display: grid;
     gap: 2em;
     grid-template-columns: 2fr 2fr;
 }
 .frontend, .backend {
-    margin: 20px 40px;
+    margin: 100px 20px;
     background: #2a1462;
     box-shadow: 20px 0 #2a1462, -20px 0 #2a1462, 0 -20px #2a1462, 0 20px #2a1462, 5px 0 0 10px #2a1462, -5px 0 0 10px #2a1462, 0 -5px 0 10px #2a1462, 0 5px 0 10px #2a1462, 25px 0 #000, -25px 0 #000, 0 -25px #000, 0 25px #000, 0 0 0 15px #000, 0 10px 0 10px #000, 0 -10px 0 10px #000, 10px 0 0 10px #000, -10px 0 0 10px #000;
 }
 .title3>h2{
     font-size: 3em;
-    margin: 30px auto;
     padding: 20px;
 }
 
@@ -253,10 +259,12 @@ button:hover{
 .backend>p{
     text-align: left;
     font-size: 20px;
+    height: 22vh;
 }
 .frontend>p{
     text-align: left;
     font-size: 20px;
+    height: 22vh;
 }
 .frontend:hover{
     transform: translateY(15px);
@@ -271,22 +279,22 @@ button:hover{
 .item4{
     color: #fff;
     display: grid;
-    grid-area: "proyects";
+    grid-area: "skills";
     align-items: center;
     padding-bottom: 150px;
     text-align: center;
     margin: 20px;
+    position: relative;
 }
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 20px 40px;
+    margin: 100px;
     background: #2a1462;
     box-shadow: 20px 0 #2a1462, -20px 0 #2a1462, 0 -20px #2a1462, 0 20px #2a1462, 5px 0 0 10px #2a1462, -5px 0 0 10px #2a1462, 0 -5px 0 10px #2a1462, 0 5px 0 10px #2a1462, 25px 0 #000, -25px 0 #000, 0 -25px #000, 0 25px #000, 0 0 0 15px #000, 0 10px 0 10px #000, 0 -10px 0 10px #000, 10px 0 0 10px #000, -10px 0 0 10px #000;
 }
 .title21{
     font-size: 3em;
-    margin: 30px auto;
     padding: 20px;
 }
 .cardicons{
@@ -295,7 +303,7 @@ button:hover{
 .cardicons>a{
     color: #fff;
     font-size: 100px;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
 }
 
@@ -307,11 +315,12 @@ button:hover{
     padding-bottom: 150px;
     text-align: center;
     margin: 20px;
+    position: relative;
 }
 .cardsp{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 20px 40px;
+    margin: 100px 35px;
     background: #2a1462;
     box-shadow: 20px 0 #2a1462, -20px 0 #2a1462, 0 -20px #2a1462, 0 20px #2a1462, 5px 0 0 10px #2a1462, -5px 0 0 10px #2a1462, 0 -5px 0 10px #2a1462, 0 5px 0 10px #2a1462, 25px 0 #000, -25px 0 #000, 0 -25px #000, 0 25px #000, 0 0 0 15px #000, 0 10px 0 10px #000, 0 -10px 0 10px #000, 10px 0 0 10px #000, -10px 0 0 10px #000;
 }
@@ -329,23 +338,29 @@ button:hover{
 }
 .title23{
     font-size: 2.5em;
-    margin: 0 auto;
+    padding: 20px;
 }
 @media (max-width:800px) {
     .item1, .item2{
         grid-template-columns: 1fr;
         grid-template-rows: max-content max-content;
         text-align: center;
+        margin: 0 auto;
     }
     .title2>P, .frontend>p, .backend>p{
         text-align: center;
+        padding: 10px 6px;
+        width: 100vw;
         margin: 0 auto;
-        margin: 0 25px;
+        font-size: 20px;
     }
     .item4{
         grid-template-columns: 1fr;
         grid-template-rows:  max-content;
         margin: 0 auto;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
     }
     .abili{
         grid-template-columns: 1fr;
@@ -356,6 +371,10 @@ button:hover{
         grid-template-columns: 1fr;
         grid-template-rows: max-content max-content;
         text-align: center;
+        margin: 0 auto;
+    }
+    .cardsp{
+        grid-template-columns: 1fr 1fr;
     }
     .img1{
         grid-row: 1/2;
