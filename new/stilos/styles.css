@@ -3,13 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "JoystixW00-Monospace";
+    font-family: themllion;
+    letter-spacing: 1pt;
+    word-spacing: 3px;
+    line-height: px;
 }
-@font-face {
-    font-family: "JoystixW00-Monospace";
-    src: url(//db.onlinewebfonts.com/c/53652da17589a6e21c5657d8a29f06b4?family=JoystixW00-Monospace);
-}
-@import url(//db.onlinewebfonts.com/c/53652da17589a6e21c5657d8a29f06b4?family=JoystixW00-Monospace);
 html{
     height: 100%;
 }
@@ -21,6 +19,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
     min-height: 100%;
+}
+@font-face {
+    font-family:themllion ;
+    src: url(gme.ttf);
 }
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
