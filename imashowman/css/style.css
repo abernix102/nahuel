@@ -108,9 +108,6 @@
     margin-top: 1.5em;
     margin-bottom: 1.2em;
 }
-.story{
-    background-image: linear-gradient(to top, #8f75ce, #9178ce, #937bce, #957ece, #9781ce, #9d80cd, #a280cc, #a87fcb, #b27ac7, #bd74c2, #c76ebb, #d067b3);
-}
 .story__container {
     padding: 76px 0;
 }
