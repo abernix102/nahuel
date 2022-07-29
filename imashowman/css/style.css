@@ -1,0 +1,209 @@
+:root{
+    --padding-container:90px 0;
+    }
+@font-face {
+    font-family:Arcade Classic;
+    src: url(fuentes/ARCADE.TTF);
+}
+*{
+    font-family: Arcade Classic;
+    margin: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+.container{
+    z-index: 1000;
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: var(--padding-container);
+}
+
+.nav__link:first-of-type{
+    margin-left: auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 1.1em;
+    --padding-container:40px 0;
+}
+
+.nav__link{
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    font-family:Arcade Classic;
+}
+.hero{
+    position: relative;
+    --padding-container:90px 0 170px;
+}
+.nav__img{
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    bottom: 0;
+}
+.hero__main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.fond{
+    width: 100%;
+    display: block;
+    max-width: 1200px;
+    background-image: url(../img/36f4ed12784fbb42ba3c8d400f423e3a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.hero__info{
+    text-align: center; 
+}
+.hero__title{
+    font-size: 3.5rem;
+    font-family: Arcade Classic;
+    margin-top: 1em;
+}
+
+.about{
+    background-image: linear-gradient(to top, #d067b3, #da68af, #e369ac, #eb6ba7, #f36da3, #f7709e, #fb739a, #fe7695, #ff7a90, #ff7f8b, #ff8487, #ff8983);
+}
+.about__main{
+    margin-top: 6em;
+}
+.about__title, .story__title, .Roadmap__title, .FAQs__title, .Team__title{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-align: center;
+    color:#FFF4FF ;
+}
+.about__paragraph, .story__paragraph, .Roadmap__paragraph, .FAQs__paragraph, .Team__paragraph{
+    font-size: 1rem;
+    color:#FFF4FF ;
+    line-height: 1.2;
+    text-align: center;
+    word-spacing: 5px;
+    margin-top: 1.5em;
+    margin-bottom: 1.2em;
+}
+.story{
+    background-image: linear-gradient(to top, #8f75ce, #9178ce, #937bce, #957ece, #9781ce, #9d80cd, #a280cc, #a87fcb, #b27ac7, #bd74c2, #c76ebb, #d067b3);
+}
+.bulls{
+    width: 100%;
+    display: block;
+    background-image:linear-gradient(rgba(102, 52, 88, 0.635), rgba(0, 0, 0, 0.88)),
+    url(../img/BeFunky-collage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Roadmap{
+    background-image: linear-gradient(to top, #452497, #48269a, #4b289d, #4d2ba1, #502da4, #5634a9, #5d3bad, #6342b2, #6e4fb9, #795bc0, #8468c7, #9075ce);
+}
+.FAQs{
+    background-image: linear-gradient(to top, #271554, #281558, #2a165c, #2b1660, #2d1664, #2f176a, #32186f, #341975, #381c7d, #3c1e86, #41218e, #452497);
+}
+
+.Team{
+    background-image: linear-gradient(to top, #271554, #1e0e46, #1e0e45, #1e0f43, #1e0f42, #1f1043, #1f1044, #201145, #221249, #23134c, #251450, #271554);
+}
+.footer{
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(to top, #000000, #040002, #070105, #090109, #0a020d, #0f0515, #12081b, #130b22, #17102e, #1b123b, #211447, #271554);
+    color: #fff;
+
+}
+
+.footer__social{
+    display: flex;
+    width: max-content;
+    margin: 0 auto;
+    gap: 1.5em;
+    z-index: 100;
+}
+.footer__link{
+    text-decoration: none;
+    color: #fff;
+    z-index: 100;
+}
+.footer__media{
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+}
+.footer__img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+.fond__footer{
+    width: 100%;
+    display: block;
+    background-image:linear-gradient(rgba(102, 52, 88, 0.635), rgba(0, 0, 0, 0.88)),
+    url(../img/footer.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media (min-width:768px){
+    .hero{
+        --padding-container:90px 0 270px;
+    }
+    .hero__title{
+        font-size: 4.5rem;
+    }
+    .nav__link{
+        font-size: 1.4rem;
+        z-index: 100;  
+        float: left;  
+    }
+    .nav__link:hover{
+        cursor:pointer;
+        margin-top: -1px;
+    }
+    .fond{
+        max-width: none;
+        height: 100vh;
+        z-index: -1;
+    }
+    .nav__img, .wave__img{
+        max-width: none;
+    }
+    .about__title, .story__title, .FAQs__title, .Team__title, .Roadmap__title{
+        font-size: 2.5rem;
+        margin: 1em 0;
+    }
+    .about__paragraph, .story__paragraph, .Roadmap__paragraph, .FAQs__paragraph, .Team__paragraph{
+        font-size: 1.5rem;
+        word-spacing: 10px;
+        margin: 2rem 2rem;
+    }
+}
