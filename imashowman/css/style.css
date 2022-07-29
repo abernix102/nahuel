@@ -108,6 +108,7 @@
     margin-top: 1.5em;
     margin-bottom: 1.2em;
 }
+
 .story__container {
     padding: 76px 0;
 }
@@ -121,7 +122,6 @@
     max-width: 1200px;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 .Roadmap{
     background-image: linear-gradient(to top, #452497, #48269a, #4b289d, #4d2ba1, #502da4, #5634a9, #5d3bad, #6342b2, #6e4fb9, #795bc0, #8468c7, #9075ce);
