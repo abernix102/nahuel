@@ -67,10 +67,8 @@
    justify-content: center;
 }
 .fond{
-    height:100vh;
     width: 100%;
     display: block;
-    max-width: 1200px;
     background-image: url(../img/36f4ed12784fbb42ba3c8d400f423e3a.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,7 +191,6 @@
         margin-top: -1px;
     }
     .fond{
-        max-width: none;
         height: 100vh;
         z-index: -1;
     }
