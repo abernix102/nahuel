@@ -130,14 +130,9 @@
 }
 .footer{
     overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(to top, #000000, #040002, #070105, #090109, #0a020d, #0f0515, #12081b, #130b22, #17102e, #1b123b, #211447, #271554);
     color: #fff;
-    display: block;
-    background-image: url(../img/36f4ed12784fbb42ba3c8d400f423e3a.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-
 }
 
 .footer__social{
