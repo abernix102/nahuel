@@ -112,6 +112,7 @@
     padding: 76px 0;
 }
 .bulls{
+    height:100vh;
     width: 100%;
     display: block;
     background-image:linear-gradient(rgba(102, 52, 88, 0.635), rgba(0, 0, 0, 0.88)),
