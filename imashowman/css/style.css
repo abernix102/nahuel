@@ -173,7 +173,6 @@
     url(../img/footer.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 @media (min-width:768px){
