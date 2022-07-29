@@ -112,6 +112,7 @@
     background-image: linear-gradient(to top, #8f75ce, #9178ce, #937bce, #957ece, #9781ce, #9d80cd, #a280cc, #a87fcb, #b27ac7, #bd74c2, #c76ebb, #d067b3);
 }
 .bulls{
+    heigth:100vh;
     width: 100%;
     display: block;
     background-image:linear-gradient(rgba(102, 52, 88, 0.635), rgba(0, 0, 0, 0.88)),
