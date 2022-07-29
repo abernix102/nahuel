@@ -109,13 +109,13 @@
 .story__container {
     padding: 76px 0;
 }
-.story{
+.bulls{
      width: 100%;
     display: block;
+    max-width:1200px;
     background-image: linear-gradient(rgba(102, 52, 88, 0.635), rgba(0, 0, 0, 0.88)), url(../img/BeFunky-collage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
 }
 .Roadmap{
@@ -130,9 +130,13 @@
 }
 .footer{
     overflow: hidden;
-    position: relative;
-    background-image: linear-gradient(to top, #000000, #040002, #070105, #090109, #0a020d, #0f0515, #12081b, #130b22, #17102e, #1b123b, #211447, #271554);
     color: #fff;
+    display: block;
+    background-image: url(../img/36f4ed12784fbb42ba3c8d400f423e3a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 
 }
 
@@ -161,14 +165,7 @@
     height: 20px;
     margin: auto;
 }
-.fond__footer{
-    width: 100%;
-    display: block;
-    background-image:linear-gradient(rgba(102, 52, 88, 0.635), rgba(0, 0, 0, 0.88)),
-    url(../img/footer.png);
-    background-size: cover;
-    background-position: center;
-}
+
 
 @media (min-width:768px){
     .hero{
