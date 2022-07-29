@@ -53,6 +53,12 @@
 .hero{
     position: relative;
     --padding-container:90px 0 170px;
+    display: block;
+    background-image: url(../img/36f4ed12784fbb42ba3c8d400f423e3a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 .nav__img{
     display: block;
@@ -66,16 +72,7 @@
    align-items: center;
    justify-content: center;
 }
-.fond{
-    width: 100%;
-    max-height:auto;
-    display: block;
-    background-image: url(../img/36f4ed12784fbb42ba3c8d400f423e3a.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
+
 
 .hero__info{
     text-align: center; 
